@@ -5,7 +5,7 @@ var moverandom:boolean;
 
 var canshoot:boolean;
 
-var objectToShoot:Rigidbody2D;
+var objectToShoot:Rigidbody;
 
 var speedhoriz:int;
 var speedvert:int;

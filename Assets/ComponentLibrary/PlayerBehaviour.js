@@ -5,7 +5,7 @@ var mouseinput:boolean;
 var speed:int;
 var movelikecar:boolean;
 
-var objectToShoot:Rigidbody2D;
+var objectToShoot:Rigidbody;
 var canshoot:boolean;
 
 function OnTriggerEnter(otherObject:Collider)
