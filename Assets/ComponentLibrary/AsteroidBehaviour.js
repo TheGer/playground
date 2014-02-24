@@ -15,10 +15,10 @@ function Start () {
 function Update () {
 	
 		//move horizontally
-		transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed);
+		transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed,Space.World);
 	
 		//move vertically
-		transform.Translate(Vector3.up * Time.deltaTime * verticalSpeed);
+		transform.Translate(Vector3.up * Time.deltaTime * verticalSpeed,Space.World);
 	
 	//asteroids turning at all times
 	transform.Rotate(Vector3.forward * 20* Time.deltaTime,Space.World);
