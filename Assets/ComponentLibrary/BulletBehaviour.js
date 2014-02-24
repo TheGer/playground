@@ -9,7 +9,20 @@ function OnTriggerEnter(otherObject:Collider)
 {
 
 	//trigger
-	Debug.Log("hit");
+	//what happens when laser hits asteroid
+	if (otherObject.gameObject.tag == "asteroid")
+	{
+		//increment the score
+		PlayerBehaviour.score++;
+		
+		//destroy the asteroid
+		Destroy(otherObject.gameObject);
+		
+	}
+	
+	
+	
+	//Debug.Log("hit");
 }
 
 

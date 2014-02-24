@@ -8,6 +8,8 @@ var movelikecar:boolean;
 var objectToShoot:Rigidbody;
 var canshoot:boolean;
 
+
+
 function OnTriggerEnter(otherObject:Collider)
 {
 	
@@ -46,11 +48,20 @@ function keyboardInputX()
 	transform.Translate(Vector3.right * speed * Time.deltaTime * Input.GetAxis("Horizontal"));
 	}
 }
+//created a static variable to store the score
+static var score:int;
+
+//create labels in the top left corner of the screen
+function OnGUI()
+{
+	GUI.color = Color.white;
+	GUI.Label(Rect(2,3,100,50),"Score:> "+score);
+}
 
 
-
+//reset score every time the game starts
 function Start () {
-	
+	score = 0;
 	
 	
 	
