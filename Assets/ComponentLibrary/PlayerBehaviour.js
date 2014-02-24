@@ -41,7 +41,7 @@ function keyboardInputY()
 function keyboardInputX()
 {
 	if(movelikecar){
-	transform.Rotate(Vector3.back * speed * Time.deltaTime * Input.GetAxis("Horizontal"));
+	transform.Rotate(Vector3.back * speed*6 * Time.deltaTime * Input.GetAxis("Horizontal"));
 	}else {
 	transform.Translate(Vector3.right * speed * Time.deltaTime * Input.GetAxis("Horizontal"));
 	}
@@ -68,7 +68,7 @@ function Update () {
 		keyboardInputY();
 	}
 	
-	if ((objectToShoot != null) && Input.GetKeyDown("space"))
+	if ((objectToShoot != null) && Input.GetKey("space"))
 	{
 		if (canshoot) {
 		shootObjectEverySecond();

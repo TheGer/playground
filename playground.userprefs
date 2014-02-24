@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ComponentLibrary\EnemyBehaviour.js">
+    <Files>
+      <File FileName="Assets\ComponentLibrary\Borders.js" Line="24" Column="32" />
+      <File FileName="Assets\ComponentLibrary\PlayerBehaviour.js" Line="43" Column="18" />
+      <File FileName="Assets\ComponentLibrary\EnemyBehaviour.js" Line="55" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
